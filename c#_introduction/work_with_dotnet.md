@@ -26,4 +26,7 @@ git remote add origin https://github.com/Vasickin/имя_репозитория.
 git branch -M main
 git push -u origin main
 ```
-
+8. Запуск проекта:
+```sh
+dotnet run
+```
