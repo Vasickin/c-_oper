@@ -317,31 +317,31 @@
 // // Если второе число некратно первому, то программа выводит
 // // остаток от деления.
 
-using System.Globalization;
+// using System.Globalization;
 
-Console.Write($"Вудите двухзначное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int num1 = num / 10;
-int num2 = num % 10;
+// Console.Write($"Вудите двухзначное число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int num1 = num / 10;
+// int num2 = num % 10;
 
-if (num > 9 && num < 100)
-{
-    Console.WriteLine($"Введёное число: {num}");
-    Console.WriteLine($"Первое число: {num1}");
-    Console.WriteLine($"Второе число: {num2}");
-    if (num1 % num2 == 0)
-    {
-        Console.WriteLine($"Второе число кратно первому");
-    }
+// if (num > 9 && num < 100)
+// {
+//     Console.WriteLine($"Введёное число: {num}");
+//     Console.WriteLine($"Первое число: {num1}");
+//     Console.WriteLine($"Второе число: {num2}");
+//     if (num1 % num2 == 0)
+//     {
+//         Console.WriteLine($"Второе число кратно первому");
+//     }
 
-    else
-    {
-        Console.WriteLine($"Второе число не кратно первому! Остаток от деления: {num1 % num2}");
-    }
-}
+//     else
+//     {
+//         Console.WriteLine($"Второе число не кратно первому! Остаток от деления: {num1 % num2}");
+//     }
+// }
 
-else
-{
-    Console.WriteLine($"Не корректно введённое число!");
-}
+// else
+// {
+//     Console.WriteLine($"Не корректно введённое число!");
+// }
 
